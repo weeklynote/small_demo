@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "lib.utils",
+      "pkg": "com.samlltest.lib.utils"
+    },
+    {
+      "uri": "main",
+      "pkg": "com.samlltest.app.main",
+      "rules": {
+          "sec": "Second",
+          "query": "Query",
+          "pass_entity": "PassEntity"
+      }
+    },
+    {
+      "uri": "sub",
+      "pkg": "com.samlltest.app.sub"
+    }
+  ]
+}
